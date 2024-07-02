@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage 1 Frontend Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 data-testid="projectTitle" class="title">STAGE 1 PROJECT</h1>
+        <h1 data-testid="slackDisplayName">Victor</h1>
+        <img src="./img/IMG-20240330-WA0053(1).jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+    </header>
+    <main>
+        <section id="goals">
+            <h2>My Tech Goals for the Next 2 Years</h2>
+            <ul class="goals-details">
+                <li>Master React and other frontend technologies.</li>
+                <li>Contribute to open-source projects.</li>
+                <li>Build and deploy at least 5 personal projects.</li>
+                <li>Gain proficiency in backend technologies like Node.js and Express.</li>
+                <li>Land a full-time job as a software developer.</li>
+            </ul>
+        </section>
+        <section id="current-info">
+            <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+            <p>Current Day: <span data-testid="currentDay"></span></p>
+            <p>Slack Email: <span data-testid="slackEmail">vicckyclef@gmail.com</span></p>
+        </section>
+        <section id="links">
+            <h2 >Useful Links</h2>
+            <ul class="links-details">
+                <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+                <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+                <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
